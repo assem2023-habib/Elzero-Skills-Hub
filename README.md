@@ -1,163 +1,327 @@
-# Elzero Skills Hub
+<div align="center">
 
-## نظرة عامة | Overview
+# قالب الموقع الثالث - HTML/CSS Template Three (Elzero Skills Hub)
 
-**Elzero Skills Hub** هو قالب موقع ويب احترافي ومتجاوب بالكامل مبني بتقنيات HTML5 وCSS3 الحديثة. يُظهر هذا المشروع مجموعة شاملة من المهارات في تطوير الويب الأمامي مع تصميم عصري ومتجاوب يناسب مختلف الأجهزة والشاشات.
+<p align="center">
+  <img src="image/landing-image.png" alt="Logo" width="200" height="200"/>
+</p>
 
-**Elzero Skills Hub** is a professional, fully responsive website template built with modern HTML5 and CSS3 technologies. This project demonstrates comprehensive front-end web development skills with a modern, responsive design that works across all devices and screen sizes.
+**قالب موقع ويب احترافي بـ HTML و CSS فقط - من دروس Elzero Web School**
 
-## الميزات الرئيسية | Key Features
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white)](https://fontawesome.com)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-### 🎨 التصميم والتخطيط | Design & Layout
-- **تصميم متجاوب بالكامل** - يتكيف مع جميع أحجام الشاشات (الهواتف، الأجهزة اللوحية، سطح المكتب)
-- **تجربة مستخدم ممتازة** مع تنقل سلس ومرئيات جذابة
-- **أيقونات احترافية** من مكتبة Font Awesome
-- **تأثيرات بصرية متقدمة** مع انتقالات ناعمة وحركات CSS
+[العربية](#) | [English](#english-version)
 
-### 📋 الأقسام الرئيسية | Main Sections
-
-#### 1. الصفحة الرئيسية | Landing Page
-- ترحيب جذاب بعنوان "Welcome, To Elzero World"
-- مقدمة موجزة عن الموقع وأهدافه
-- تصميم hero section مع عناصر بصرية جذابة
-
-#### 2. قسم المقالات | Articles Section
-- عرض بطاقات مقالات منظمة وجذابة
-- صور مصغرة للمقالات مع عناوين وصفية
-- أزرار "اقرأ المزيد" لكل مقالة
-
-#### 3. معرض الصور | Gallery
-- شبكة صور متجاوبة وعصرية
-- تأثيرات hover تفاعلية
-- عرض محترف للأعمال والمشاريع
-
-#### 4. المميزات | Features
-- عرض مميزات الخدمات بشكل جذاب
-- بطاقات منظمة مع صور وأوصاف
-- تصميم يبرز نقاط القوة
-
-#### 5. الشهادات | Testimonials
-- آراء العملاء والمستخدمين
-- نظام نجوم للتقييم
-- تصميم يبني الثقة والمصداقية
-
-#### 6. فريق العمل | Team Members
-- عرض أعضاء الفريق بصور شخصية
-- روابط وسائل التواصل الاجتماعي
-- تصميم احترافي للبروفايلات
-
-#### 7. الخدمات | Services
-- ست خدمات رئيسية مع أيقونات مميزة
-- أزرار تفاصيل لكل خدمة
-- تغطية شاملة لمجالات مختلفة
-
-#### 8. المهارات | Our Skills
-- عرض تفاعلي لمستويات المهارات
-- أشرطة تقدم مرئية وجذابة
-- أربع مهارات تقنية رئيسية
-
-#### 9. طريقة العمل | How It Works
-- شرح عملية العمل بخطوات منظمة
-- رسوم توضيحية ورسوم بيانية
-- دليل سهل الفهم للعملاء
-
-#### 10. الأحداث | Events
-- عرض العد التنازلي للأحداث القادمة
-- تصميم ديناميكي وحيوي
-- مؤقت تفاعلي للأيام والساعات
-
-## التقنيات المستخدمة | Technologies Used
-
-- **HTML5** - بنية دلالية حديثة ومتوافقة مع معايير الويب
-- **CSS3** - تنسيقات متقدمة مع:
-  - Flexbox للتخطيط المرن
-  - Grid Layout للشبكات المتقدمة
-  - Animations و Transitions للحركات
-  - Media Queries للتصميم المتجاوب
-  - Custom Properties (CSS Variables)
-- **Font Awesome 6.4.0** - مجموعة شاملة من الأيقونات
-- **Google Fonts** - خطوط احترافية وعصرية
-
-## متطلبات التشغيل | Requirements
-
-- متصفح ويب حديث (Chrome, Firefox, Safari, Edge)
-- خادم ويب محلي (مثل Live Server في VS Code)
-- لا توجد متطلبات خادم معقدة - ملفات HTML/CSS ثابتة فقط
-
-## التثبيت والتشغيل | Installation & Setup
-
-### الطريقة الأولى - باستخدام خادم محلي:
-
-1. قم بتحميل أو استنساخ المشروع:
-```bash
-git clone https://github.com/assem2023-habib/Elzero-Skills-Hub.git
-```
-
-2. انتقل إلى مجلد المشروع:
-```bash
-cd Elzero-Skills-Hub
-```
-
-### الطريقة الثانية - باستخدام VS Code Live Server:
-
-1. افتح المجلد في VS Code
-2. ثبت إضافة "Live Server" من السوق
-3. اضغط على زر "Go Live" في شريط الحالة
-4. سيفتح الموقع تلقائياً في المتصفح
-
-## هيكل المشروع | Project Structure
-
-```
-Elzero-Skills-Hub/
-├── index.html                 # الملف الرئيسي للصفحة
-├── css/
-│   ├── mark.css              # التنسيقات الرئيسية المخصصة
-│   └── normalize.css         # إعادة تعيين التنسيقات الافتراضية
-├── fontawesome-free-6.4.0-web/  # مكتبة الأيقونات
-│   └── css/
-│       └── all.css           # ملف الأيقونات الرئيسي
-├── image/                    # مجلد الصور والأصول البصرية
-└── README.md                 # ملف التوثيق هذا
-```
-
-## المتصفحات المدعومة | Browser Support
-
-- ✅ Chrome 60+
-- ✅ Firefox 55+
-- ✅ Safari 12+
-- ✅ Edge 79+
-- ✅ Opera 47+
-
-## المطور | Developer
-
-**Assem Habib**
-- GitHub: [@assem2023-habib](https://github.com/assem2023-habib)
-- المشروع: Elzero Skills Hub
-
-## الإصدار | Version
-
-**الإصدار الحالي: 1.0.0**
-- تاريخ الإصدار: أكتوبر 2025
-- حالة المشروع: نشط وجاهز للتطوير
-
-## المساهمة | Contributing
-
-نرحب بالمساهمات والتحسينات! يرجى اتباع الخطوات التالية:
-
-1. اعمل Fork للمشروع
-2. أنشئ فرع جديد للميزة (`git checkout -b feature/AmazingFeature`)
-3. اعتمد التغييرات (`git commit -m 'Add some AmazingFeature'`)
-4. ادفع للفرع (`git push origin feature/AmazingFeature`)
-5. افتح Pull Request
-
-## التواصل | Contact
-
-للاستفسارات أو الاقتراحات، يرجى التواصل عبر:
-- GitHub Issues
-- البريد الإلكتروني: assem2023.habib@gmail.com
+</div>
 
 ---
 
-**تم تطوير هذا المشروع بكل ❤️ بواسطة Assem Habib**
+## نظرة عامة
 
-*Built with ❤️ by Assem Habib*
+**HTML/CSS Template Three (Elzero Skills Hub)** هو قالب موقع ويب متكامل ومتجاوب بالكامل، مطوّر باستخدام HTML و CSS فقط. مبني على قالب Elzero Web School الثالث مع إضافات وتعديلات، يحتوي على تصميم عصري مع قائمة تنقل ضخمة (Mega Menu) وتأثيرات بصرية متقدمة.
+
+### مكونات المشروع
+
+- **صفحة HTML واحدة** كاملة التصميم تحتوي على 14 قسمًا
+- **نظام ألوان** متكامل ومتناسق
+- **تصميم متجاوب** (Responsive) يعمل على جميع الشاشات
+- **أيقونات Font Awesome** لتجميل الواجهات
+- **تأثيرات CSS** متقدمة (Animations, Transitions, Hover Effects)
+- **قائمة تنقل ضخمة** (Mega Menu) منظمة
+
+---
+
+## المعاينة الحية
+
+🌐 **المعاينة الحية:** [https://assem2023-habib.github.io/Elzero-Skills-Hub/](https://assem2023-habib.github.io/Elzero-Skills-Hub/)
+
+📂 **مستودع الكود:** [https://github.com/assem2023-habib/Elzero-Skills-Hub](https://github.com/assem2023-habib/Elzero-Skills-Hub)
+
+---
+
+## فوائد المشروع
+
+### 👨‍💻 للمطورين
+- **تعلّم بنية المشاريع الحقيقية**: كيفية تنظيم ملف HTML واحد مع 14 قسمًا متنوعًا
+- **فهم التصميم المتجاوب**: أمثلة عملية على Media Queries لتكييف التصميم مع الموبايل والتابلت
+- **أنماط CSS احترافية**: استخدام Flexbox و Grid، متغيرات CSS، وتقنيات الرسوم المتحركة
+- **تأثيرات بصرية متقدمة**: Mega Menu، عدّاد تنازلي، أشرطة تقدم، بطاقات تفاعلية
+
+### 🏢 لأصحاب المشاريع والشركات
+- **نموذج أولي جاهز**: ابدأ موقع شركتك فوراً بقسم رئيسي متكامل
+- **قابلية التوسع**: 14 قسمًا تغطي معظم احتياجات المواقع (خدمات، فريق، أحداث، تسعير)
+- **تكلفة صفرية**: قالب مجاني بمكتبات مفتوحة المصدر (Font Awesome، Google Fonts)
+
+### 🎓 للمتعلمين
+- **مرجع تعليمي متكامل**: كل سطر في الكود موثّق بتعليقات بالعربية
+- **تطبيق عملي**: كل مفهوم في HTML/CSS تجد له تطبيقاً مباشراً في هذا القالب
+- **مشروع للتخرج**: يمكنك بناء مشروع التخرج الخاص بك انطلاقاً من هذا القالب
+
+---
+
+## الأقسام التي يقدمها القالب
+
+| القسم | الوصف |
+|-------|-------|
+| **Header & Mega Menu** | رأس الموقع مع قائمة تنقل ضخمة تحتوي على روابط جميع الأقسام |
+| **Landing Page** | شاشة ترحيب جذابة مع صورة ونص دعائي وسهم تمرير |
+| **Articles** | بطاقات مقالات مع صور وعناوين ووصف ورابط "Read More" |
+| **Gallery** | شبكة معرض صور مع تأثيرات hover وأطر زخرفية |
+| **Features** | 3 بطاقات مميزات (Quality, Time, Passion) مع ألوان وتأثيرات مختلفة |
+| **Testimonials** | آراء العملاء مع صور شخصية وتقييمات نجوم |
+| **Team Members** | بطاقات فريق العمل مع صور وروابط تواصل اجتماعي |
+| **Services** | 6 خدمات رئيسية مع أيقونات وأرقام وأزرار تفاصيل |
+| **Our Skills** | أشرطة تقدم تفاعلية تعرض مستوى المهارات (HTML, CSS, JS, Python) |
+| **How It Works** | شرح طريقة العمل بخطوات منظمة مع رسوم توضيحية |
+| **Events** | عدّاد تنازلي للأحداث القادمة مع صورة ونموذج اشتراك |
+| **Pricing Plans** | 3 خطط تسعير (Basic, Advanced, Professional) مع جدول مقارنة |
+| **Top Videos** | قائمة فيديوهات مع صورة معاينة ومشغل وهمي |
+| **Stats** | إحصائيات الموقع (Clients, Projects, Countries, Money) |
+| **Discount** | قسم خصم مع نموذج طلب واستمارة تواصل |
+| **Footer** | تذييل الموقع مع روابط مهمة ومعلومات الاتصال |
+
+---
+
+## هيكل المشروع
+
+```
+Elzero-Skills-Hub/
+├── index.html                          # الصفحة الرئيسية (1035 سطر)
+├── css/
+│   ├── mark.css                        # التنسيقات الرئيسية (1813 سطر)
+│   └── normalize.css                   # إعادة تعيين التنسيقات الافتراضية
+├── fontawesome-free-6.4.0-web/         # مكتبة Font Awesome
+│   └── css/
+│       └── all.min.css                 # ملف الأيقونات المصغر
+├── image/                              # مجلد الصور (51 ملف)
+│   ├── cat-*.jpg/png                   # صور المقالات
+│   ├── gallery-*.jpg/png               # صور المعرض
+│   ├── features-*.jpg                  # صور المميزات
+│   ├── team-*.jpg/png                  # صور فريق العمل
+│   ├── avatar-*.png                    # الصور الرمزية للشهادات
+│   ├── work-steps-*.png                # صور خطوات العمل
+│   ├── videos-*.jpg                    # صور الفيديوهات
+│   ├── hosting-*.png                   # صور خطط الاستضافة
+│   └── ...                             # ملفات صور أخرى
+├── README.md                           # ملف التوثيق
+└── DashBoard_FrontEnd.md               # ملف توثيق إضافي
+```
+
+---
+
+## النظام اللوني
+
+```css
+:root {
+  --main-color: #2196f3;              /* اللون الأساسي (أزرق) */
+  --section-padding: 100px;           /* Padding الأقسام */
+  --sec-color: #747474;               /* لون النصوص الثانوي */
+  --third-color: #ececec;             /* لون الخلفيات الفاتح */
+  --f-color: #cacaca;                 /* لون الحدود */
+  --feature1-color: rgb(255, 48, 48); /* لون الميزة الأولى (أحمر) */
+  --feature2-color: rgb(0, 150, 136); /* لون الميزة الثانية (أخضر) */
+  --feature3-color: rgb(3, 169, 244); /* لون الميزة الثالثة (أزرق) */
+}
+```
+
+---
+
+## أقسام التنسيقات الرئيسية (mark.css)
+
+ملف `mark.css` يحتوي على 1813 سطراً مقسمة إلى الأقسام التالية:
+
+| القسم | الأسطر | الوصف |
+|-------|--------|-------|
+| Global Rules | 1-39 | إعادة تعيين الأنماط والمتغيرات |
+| Container & Main Head | 34-100 | حاوية التوسيط وعناوين الأقسام |
+| Header / Mega Menu | 100-280+ | رأس الموقع والقائمة الضخمة |
+| Landing | 280-350+ | شاشة الترحيب الرئيسية |
+| Articles | 350-420+ | بطاقات المقالات |
+| Gallery | 420-480+ | معرض الصور مع تأثيرات |
+| Features | 480-600+ | بطاقات المميزات الثلاث |
+| Testimonials | 600-660+ | آراء العملاء والتقييمات |
+| Team Members | 660-790+ | بطاقات فريق العمل |
+| Services | 790-870+ | بطاقات الخدمات |
+| Our Skills | 870-910+ | أشرطة التقدم |
+| How It Works | 910-970+ | خطوات العمل |
+| Events | 970-1050+ | العدّاد التنازلي |
+| Pricing Plans | 1050-1170+ | خطط التسعير |
+| Top Videos | 1170-1250+ | قائمة الفيديوهات |
+| Stats | 1250-1300+ | الإحصائيات |
+| Discount | 1300-1430+ | قسم الخصم والنموذج |
+| Footer | 1430-1550+ | تذييل الموقع |
+| Animations | 1550-1700+ | الحركات والتأثيرات |
+| Responsive | 1700-1813 | التصميم المتجاوب |
+
+---
+
+## كيفية التشغيل
+
+### المتطلبات الأساسية
+
+- متصفح ويب حديث (Chrome, Firefox, Edge, Safari)
+- أي محرر نصوص (VS Code, Sublime, Atom)
+
+### التشغيل المحلي
+
+```bash
+# استنساخ المشروع
+git clone https://github.com/assem2023-habib/Elzero-Skills-Hub.git
+
+# الدخول إلى المجلد
+cd Elzero-Skills-Hub
+
+# فتح الملف في المتصفح (أو اسحب وأفلت)
+start index.html
+```
+
+### باستخدام VS Code Live Server
+
+```bash
+# تثبيت extension Live Server
+# ثم الضغط على Go Live من شريط الحالة
+```
+
+---
+
+## المميزات
+
+- **تصميم نظيف واحترافي** مناسب للمواقع التعريفية والشركات
+- **كود منظم** مع تعليقات بالعربية لتقسيم الأقسام
+- **قائمة تنقل ضخمة (Mega Menu)** تفاعلية
+- **متجاوب بالكامل** مع جميع أحجام الشاشات
+- **أيقونات Font Awesome 6** مجانية
+- **خط Cairo** من Google Fonts (يدعم اللغة العربية)
+- **سهولة التخصيص** - غيّر متغيرات الألوان فقط
+- **تأثيرات CSS متنوعة** (انزلاق، دوران، تموج، نبض)
+
+---
+
+## روابط مهمة
+
+- 🌐 **المعاينة الحية:** [assem2023-habib.github.io/Elzero-Skills-Hub](https://assem2023-habib.github.io/Elzero-Skills-Hub/)
+- 📂 **مستودع الكود:** [github.com/assem2023-habib/Elzero-Skills-Hub](https://github.com/assem2023-habib/Elzero-Skills-Hub)
+- 📖 **قائمة تشغيل الكورس الأصلي:** [YouTube Playlist](https://www.youtube.com/watch?v=4OGWPn-Q__I&list=PLDoPjvoNmBAyGaRGzPVZCkYx5L7Mo9Tbh)
+- 🏫 **قناة Elzero Web School:** [YouTube](https://www.youtube.com/@ElzeroWebSchool)
+- 👨‍🏫 **موقع الأستاذ أسامة الزيرو:** [Elzero.org](https://elzero.org)
+
+---
+
+<div align="center">
+
+**تم التطوير بواسطة Osama Elzero | قناة Elzero Web School**
+
+تم الرفع والتعديل بواسطة **Assem Habib**
+
+⭐ إذا أعجبك القالب، لا تنسى وضع نجمة على GitHub!
+
+</div>
+
+---
+
+# English Version
+
+<div align="center">
+
+## HTML/CSS Template Three (Elzero Skills Hub)
+
+**Professional Multi-Section Website Template built with pure HTML & CSS**
+
+</div>
+
+### Overview
+
+**HTML/CSS Template Three** is a complete one-page website template created by **Osama Elzero** as part of his web development tutorial series. Built with pure HTML and CSS, it features 14+ sections with a mega menu, responsive design, and advanced CSS animations.
+
+### Benefits
+
+- **For Developers:** Learn real project structure, responsive design, Flexbox/Grid, CSS animations, and mega menu implementation
+- **For Businesses:** Get a production-ready company website UI at zero cost, covering services, team, pricing, and events
+- **For Learners:** A complete educational reference with commented code in Arabic
+
+### Sections
+
+| Section | File | Description |
+|---------|------|-------------|
+| **Header / Mega Menu** | `index.html` | Navigation bar with dropdown mega menu |
+| **Landing** | `index.html` | Hero section with welcome message and image |
+| **Articles** | `index.html` | Article cards with images and read more links |
+| **Gallery** | `index.html` | Image gallery with hover overlays |
+| **Features** | `index.html` | 3 feature cards (Quality, Time, Passion) |
+| **Testimonials** | `index.html` | Client testimonials with star ratings |
+| **Team Members** | `index.html` | Team profiles with social links |
+| **Services** | `index.html` | 6 service cards with icons and details |
+| **Our Skills** | `index.html` | Progress bars for technical skills |
+| **How It Works** | `index.html` | Step-by-step workflow explanation |
+| **Events** | `index.html` | Countdown timer for upcoming events |
+| **Pricing Plans** | `index.html` | 3 pricing tiers comparison |
+| **Top Videos** | `index.html` | Video list with preview image |
+| **Stats** | `index.html` | Website statistics counters |
+| **Discount** | `index.html` | Discount request form |
+| **Footer** | `index.html` | Site footer with links and contact info |
+
+### Live Demo
+
+🌐 **Live Preview:** [https://assem2023-habib.github.io/Elzero-Skills-Hub/](https://assem2023-habib.github.io/Elzero-Skills-Hub/)
+
+📂 **Source Code:** [https://github.com/assem2023-habib/Elzero-Skills-Hub](https://github.com/assem2023-habib/Elzero-Skills-Hub)
+
+### Quick Start
+
+```bash
+git clone https://github.com/assem2023-habib/Elzero-Skills-Hub.git
+cd Elzero-Skills-Hub
+# Open index.html in your browser
+```
+
+### Features
+
+- Pure HTML & CSS (no JavaScript required)
+- Fully responsive design with mobile menu
+- Mega menu navigation system
+- Advanced CSS animations and transitions
+- Font Awesome 6 icons
+- Clean, organized code with Arabic comments
+- Easy customization via CSS variables
+- 16 unique sections in a single page
+
+### Project Structure
+
+```
+Elzero-Skills-Hub/
+├── index.html                 # Main HTML file (all sections)
+├── css/
+│   ├── mark.css               # Main stylesheet (1813 lines)
+│   └── normalize.css          # CSS reset
+├── fontawesome-free-6.4.0-web/ # Font Awesome icons
+├── image/                     # Image assets (51 files)
+└── README.md                  # Documentation
+```
+
+### Color System
+
+```css
+:root {
+  --main-color: #2196f3;       /* Primary blue */
+  --feature1-color: #ff3030;   /* Red feature */
+  --feature2-color: #009688;   /* Teal feature */
+  --feature3-color: #03a9f4;   /* Blue feature */
+}
+```
+
+### Tutorial
+
+Watch the full tutorial series on YouTube: [Playlist Link](https://www.youtube.com/watch?v=4OGWPn-Q__I&list=PLDoPjvoNmBAyGaRGzPVZCkYx5L7Mo9Tbh)
+
+---
+
+<div align="center">
+
+**Built by Osama Elzero | Elzero Web School**
+
+Forked and maintained by **Assem Habib**
+
+</div>
